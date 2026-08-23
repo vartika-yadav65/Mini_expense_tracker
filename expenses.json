@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Lunch",
+        "category": "Food",
+        "amount": 250.0,
+        "date": "23-08-2026"
+    },
+    {
+        "name": "Bus ticket",
+        "category": "Travel",
+        "amount": 1200.0,
+        "date": "23-08-2026"
+    }
+]

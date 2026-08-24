@@ -1,50 +1,53 @@
-📊 Mini Expense Tracker
-A simple command-line Python project to track your daily expenses, check them against your monthly budget, and save everything to a file so nothing gets lost when you close the program.
-📌 What the Project Does
-This is a menu-driven expense tracker that runs in your terminal. You can add expenses with a name, category, and amount, view all your recorded expenses, and check a quick summary of how much you've spent versus how much budget you have left.
-Every expense you add gets saved to a file called expenses.json. So even if you close the program and open it again later, your previous expenses are automatically loaded back in — the tracker "remembers" your data across sessions.
-🧠 Python Concepts Used
-Variables & data types (int, float, string, list, dict)
-Basic operators (arithmetic, comparison)
-Input & Output (input(), print())
-if / elif / else conditions
-while loop (menu-driven structure) & for loop (looping through expenses)
-Lists (storing all expenses)
-Dictionaries (storing individual expense details)
-Functions (modular code — one function per task)
-Exception handling (try/except for invalid amount input)
-File handling (reading/writing JSON files)
-Modules & libraries (json, datetime)
-▶️ How to Run It
-Make sure Python 3 is installed on your system.
-Download the file expense_tracker.py.
-Open a terminal in the same folder as the file.
-Run the program:
-Code
-Use the on-screen menu to add expenses, view them, or check your summary.
-Choose option 4 to exit the program.
-An expenses.json file will automatically be created in the same folder to store your data.
-✨ Features
-Add expenses with name, category, amount, and auto-generated date
-View all expenses in a clean, readable list
-Budget summary showing total spent and remaining budget
-Smart warnings:
-Alerts you if you've exceeded your budget
-Warns you when your budget is running low (under ₹500)
-Persistent storage — expenses are saved to expenses.json and reloaded automatically the next time you run the program
-Input validation — handles invalid (non-numeric) amount entries gracefully instead of crashing
-Simple menu system — easy to navigate with numbered options
-📂 Files in This Project
-File
-Description
-expense_tracker.py
-Main program file
-expenses.json
-Auto-generated file that stores all your expense records
-
-🚀 Possible Future Improvements
-Add ability to delete or edit an existing expense
-Add monthly/category-wise spending breakdown
-Set custom budget limits per category
-Export summary as a PDF or CSV report
-Built as a beginner Python project to practice core concepts through a real, usable mini-application.
+Mini Expense Tracker
+A simple Python-based expense tracking application that helps users record daily expenses, monitor their monthly budget, generate reports, export data, and visualize spending.
+Features
+• Add daily expenses
+• Categorize expenses into Food, Travel, Shopping, and Other
+• Automatically save expenses using JSON
+• View all recorded expenses
+• Calculate total spending
+• Track remaining monthly budget
+• Generate Monthly Budget vs Actual Spending Report
+• Export expenses to CSV
+• Generate spending charts using Matplotlib
+• Validate expense amount, category, date, and name
+• Keep expense data saved after closing the program
+Technologies Used
+• Python
+• JSON – for storing expense data
+• CSV – for exporting expense records
+• Datetime – for handling dates
+• Matplotlib – for creating graphs
+Python Concepts Used
+• Variables and constants
+• Data types
+• Lists
+• Dictionaries
+• Functions
+• Loops
+• Conditional statements
+• Exception handling
+• File handling
+• User input and validation
+• Modules and imports
+Project Files
+• expenses.json – stores expense data
+• expenses_export.csv – exported expense records
+• expense_summary.png – spending visualization
+Menu Options
+Add Expense
+Show Expenses
+Show Summary
+Monthly Budget vs Actual Report
+Export to CSV
+Graphical Summary
+Exit
+Project Purpose
+This project was created to practice Python fundamentals and apply concepts such as file handling, data storage, validation, CSV processing, and data visualization to a real-life expense management problem.
+Future Improvements
+• Add expense editing and deletion
+• Add customizable monthly budgets
+• Add search and filtering
+• Add more detailed spending analytics
+• Add a graphical user interface (GUI)
+• Add multiple user accounts

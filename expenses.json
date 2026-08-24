@@ -10,5 +10,29 @@
         "category": "Travel",
         "amount": 1200.0,
         "date": "23-08-2026"
+    },
+    {
+        "name": "Lunch",
+        "category": "Food",
+        "amount": 150.0,
+        "date": "24-08-2026"
+    },
+    {
+        "name": "Bus",
+        "category": "Travel",
+        "amount": 50.0,
+        "date": "24-08-2026"
+    },
+    {
+        "name": "Shopping",
+        "category": "Shopping",
+        "amount": 800.0,
+        "date": "24-08-2026"
+    },
+    {
+        "name": "Movie",
+        "category": "Other",
+        "amount": 300.0,
+        "date": "24-08-2026"
     }
 ]
